@@ -15,7 +15,7 @@ export default function Home() {
         />
         <ol>
           <li>
-           This is a test <code>app/page.js</code>.
+           This is a test 2 <code>app/page.js</code>.
           </li>
           <li>Save and see your changes instantly.</li>
         </ol>
