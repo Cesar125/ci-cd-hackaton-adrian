@@ -22,10 +22,13 @@ jobs:
         with:
           node-version: '20'
 
+      -name: Set section
+        run: cd hackaton-app
+
       - name: Install dependencies
         run: npm ci
 
-      - name: Build React app
+      - name: Build NextJS app
         run: npm run build
 
       - name: Verify env vars
