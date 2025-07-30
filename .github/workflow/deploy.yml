@@ -21,10 +21,16 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
+<<<<<<< HEAD
 
       - name: Set section
         run: cd hackaton-app
 
+=======
+      - name: Install dependencies
+        run: cd hackaton-app
+        
+>>>>>>> 261d6853a099efa4513517b71e53490d71c024f6
       - name: Install dependencies
         run: npm ci
 
