@@ -22,7 +22,7 @@ jobs:
         with:
           node-version: '20'
 
-      -name: Set section
+      - name: Set section
         run: cd hackaton-app
 
       - name: Install dependencies
