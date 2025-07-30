@@ -22,10 +22,10 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Install dependencies
-        run: npm ci
       - name: Set directory
         run: cd hackaton-app 
+      - name: Install dependencies
+        run: npm ci
       - name: Build React app
         run: npm run build
 
